@@ -4,6 +4,7 @@ import NavIcon from "../Icons";
 
 const Layout = ({ children, setSearchQuery }) => {
   const [value, setvalue] = useState("");
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
   const location = useLocation();
   const naviagte = useNavigate();
